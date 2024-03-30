@@ -8,7 +8,7 @@ import (
 type Configuration struct{
 	HealthCheckInterval string   `json:"healthCheckInterval"`
 	Servers             []string `json:"servers"`
-	ListenPort          string   `json:"address"`
+	Address          string   `json:"address"`
 	Algorithm           string   `json:"algorithm"`
 }
 

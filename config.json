@@ -1,6 +1,1 @@
-{
-  "address": "localhost:8080",
-  "servers": ["localhost:8081", "localhost:8082"],
-  "healthCheckInterval": "5s",
-  "algorithm": "roundrobin"
-}
+{"healthCheckInterval":"76s","servers":["localhost:8081","localhost:8082"],"address":":7890","algorithm":"weighted"}
